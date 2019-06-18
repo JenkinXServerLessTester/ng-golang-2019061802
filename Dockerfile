@@ -1,0 +1,4 @@
+FROM scratch
+EXPOSE 8080
+ENTRYPOINT ["/ng-golang-2019061802"]
+COPY ./bin/ /
